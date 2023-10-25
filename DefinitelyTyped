@@ -1,0 +1,10 @@
+To use DefinitelyTyped, you first need to install it in your project. You can do this by running the following command in your terminal:
+npm install -D @types/definitelytyped
+Use code with caution.
+Learn more
+Once you have installed DefinitelyTyped, you can start using the type definitions by importing them into your TypeScript code. For example, if you want to use the type definitions for the jQuery library, you would import them as follows:
+import * as $ from "jquery";
+Use code with caution.
+Learn more
+Once you have imported the type definitions, you can start using them in your TypeScript code. For example, the following code uses the $ variable to access the jQuery library:
+$("div").css("color", "red");
